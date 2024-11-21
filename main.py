@@ -14,7 +14,7 @@ weight = str(input("Peso do utilizador: "))
 create_user(username, age, height, weight)
 
 # Pergunta o nome do utilizador
-username_input = input("Digite o nome do utilizador: ")
+username_input = input("Digite o nome do utilizador para calcular o seu IMC: ")
 
 # Chama a função para calcular o IMC com o nome fornecido
 calcular_imc(username_input)
