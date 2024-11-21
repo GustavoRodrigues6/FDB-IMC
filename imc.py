@@ -16,8 +16,9 @@ def calcular_imc(username):
     user_data = cursor.fetchone()
 
     if user_data:
-        height = user_data[0] / 100  # Converte altura para metros
-        weight = user_data[1]
+        # Convertendo a altura (em cm) e peso (em kg) para tipos numéricos adequados
+        height = float(user_data[0]) / 100  # Converte altura de cm para metros
+        weight = float(user_data[1])  # Peso em kg
 
         # Calcula o IMC
         imc = weight / (height ** 2)

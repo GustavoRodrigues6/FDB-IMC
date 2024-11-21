@@ -7,8 +7,8 @@ from imc import *
 print("--------------------------- Registo ---------------------------")
 username = input("Nome do utilizador: ")
 age = int(input("Idade do utilizador: "))
-height = str(input("Altura do utilizador: "))
-weight = str(input("Peso do utilizador: "))
+height = int(input("Altura do utilizador (em cm): "))
+weight = int(input("Peso do utilizador (em kg): "))
 
 # Chama a função para criar o utilizador com os dados fornecidos
 create_user(username, age, height, weight)
