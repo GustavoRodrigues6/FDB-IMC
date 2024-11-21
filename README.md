@@ -8,7 +8,7 @@ Para instalar e configurar o projeto, siga os seguintes passos:
 
 Clone o repositório:
 ```sh
-    git clone https://github.com/GustavoRodrigues6/FDB-Exercicio1.git
+git clone https://github.com/GustavoRodrigues6/FDB-Exercicio1.git
 ```
 ***
 
