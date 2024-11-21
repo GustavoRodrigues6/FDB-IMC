@@ -1,4 +1,4 @@
-# FDB - Exercício1
+# FDB - IMC
 
 Introdução
 Este projeto foi desenvolvido para permitir que os utilizadores calculem o seu IMC. Este projeto foi criado como parte da disciplina de Fundamentos de Base de Dados na escola IPLUSO Ensino Politécnico da Lusofonia.
@@ -12,8 +12,7 @@ Clone o repositório:
 ```
 ***
 
-E-mail:  
-
+E-mail:
 [Gustavo Rodrigues](mailto:gurodriguesalves12@gmail.com)  
 
 
