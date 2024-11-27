@@ -1,7 +1,7 @@
 import users
 import imc
 from users import *
-from imc import *
+from imc import calcular_imc
 
 def main():
     while True:

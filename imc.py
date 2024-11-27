@@ -1,4 +1,6 @@
-from users import cursor
+import sqlite3
+import users
+from users import *
 
 def calcular_imc(username):
     """
