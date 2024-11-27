@@ -19,6 +19,7 @@ def main():
             weight = int(input("Peso do utilizador (em kg): "))
             create_user(username, age, height, weight)
         elif choice == '2':
+            print("--------------------------- Calculo ---------------------------")
             username_input = input("Insira o nome do utilizador: ")
             calcular_imc(username_input)
         elif choice == '3':
