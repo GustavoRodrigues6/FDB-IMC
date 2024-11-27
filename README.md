@@ -1,6 +1,6 @@
 # FDB - IMC
 
-Introdução
+# Introdução
 Este projeto foi desenvolvido para permitir que os utilizadores calculem o seu IMC. Este projeto foi criado como parte da disciplina de Fundamentos de Base de Dados na escola IPLUSO Ensino Politécnico da Lusofonia.
 ***
 # Instalação
