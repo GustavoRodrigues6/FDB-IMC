@@ -28,7 +28,7 @@ def create_user(username, age, height, weight):
     # Verifica se o nome de utilizador já existe
     cursor.execute('SELECT * FROM users WHERE username = ?', (username,))
     if cursor.fetchone():
-        print("\nErro: Nome de utilizador já existe!\n")
+        print("\nError: Nome de utilizador já existe!\n")
         return
 
     # Insere o novo utilizador na base de dados
