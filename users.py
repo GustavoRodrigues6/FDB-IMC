@@ -25,6 +25,13 @@ def create_user(username, age, height, weight):
     :param weight: The weight of the user in kilograms (int).
     """
 
+    # Verifica se o nome de utilizador já existe
+    cursor.execute('SELECT * FROM users WHERE username = ?', (username,))
+    if cursor.fetchone():
+        print("\nErro: Nome de utilizador já existe!\n")
+        return
+
+    # Insere o novo utilizador na base de dados
     cursor.execute('INSERT INTO users (username, age, height, weight) VALUES (?, ?, ?, ?)', (username, age, height, weight))
     connection.commit()
 

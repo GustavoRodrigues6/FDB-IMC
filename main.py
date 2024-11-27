@@ -22,7 +22,7 @@ def main():
             username_input = input("Digite o nome do utilizador: ")
             calcular_imc(username_input)
         elif choice == '3':
-            print("Saindo...")
+            print("A Sair...")
             break
         else:
             print("Opção inválida! Tente novamente.")
