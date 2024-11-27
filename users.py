@@ -36,3 +36,6 @@ def create_user(username, age, height, weight):
     connection.commit()
 
     print("\nUtilizador registado com sucesso!\n")
+
+    # Calcula o IMC do utilizador registado
+    calcular_imc(username)
